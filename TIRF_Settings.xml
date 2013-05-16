@@ -1,0 +1,882 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>10.0f2</Version>
+<Object>
+<Name>Settings in</Name>
+<NumLevels>1</NumLevels>
+<Class>Settings.lvclass</Class>
+<Version>1.0.0.9</Version>
+<Cluster>
+<Name>Settings.lvclass</Name>
+<NumElts>5</NumElts>
+<Array>
+<Name>All Dyes</Name>
+<Dimsize>10</Dimsize>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>Bright Field</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val></Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val></Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val></Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val></Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val></Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>1.00000000000000E-2</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>Alexa 488</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>Cyan (488 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>Alexa 647</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>Red (637 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>EosFP Red (activating)</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>2</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>UVA (401 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>Yellow (561 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>3</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>Alexa 546</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>Yellow (561 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>Alexa 532</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>Green (532 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>Alexa 594</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>Orange (594 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>DAPI / Hoechst</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>UVB (375 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>5.00000000000000E-2</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>EosFP Green</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>Cyan (488 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.90000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>0.20000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Dye Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Dye Name</Name>
+<Val>C26-Phenyl</Val>
+</String>
+<Array>
+<Name>Pulse Sequence</Name>
+<Dimsize>1</Dimsize>
+<Cluster>
+<Name>Pulse Properties</Name>
+<NumElts>5</NumElts>
+<String>
+<Name>LED Name</Name>
+<Val>UVB (375 nm)</Val>
+</String>
+<DBL>
+<Name>Pulse Length (s)</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay Before (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Delay After (s)</Name>
+<Val>0.10000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Trigger Camera</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+</Array>
+<I16>
+<Name>Emission Filter</Name>
+<Val>0</Val>
+</I16>
+<DBL>
+<Name>Exposure (s)</Name>
+<Val>0.50000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Yellow Select</Name>
+<Val>0</Val>
+</Boolean>
+<I32>
+<Name># Pulses</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+</Array>
+<I32>
+<Name>Selected Dye</Name>
+<Val>9</Val>
+</I32>
+<Path>
+<Name>Settings File</Name>
+<Val>C:\Users\tirf-user\Desktop\LabView Programs\TIRF LabView\TIRF_Settings.xml</Val>
+</Path>
+<Array>
+<Name>Laser Values</Name>
+<Dimsize>9</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>Red</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>637</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/port0/line2</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>Orange</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>594</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/ao0</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>Yellow</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>561</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/ao1</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>Green</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>532</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/ao2</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>Teal</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>514</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/ao3</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>Cyan</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>488</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/port0/line7</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>Blue</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>445</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/port0/line8</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>UVA</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>401</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/port0/line9</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Color</Name>
+<Val>UVB</Val>
+</String>
+<I32>
+<Name>DLL LED Num</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Wavelength</Name>
+<Val>375</Val>
+</I32>
+<String>
+<Name>Counter Name</Name>
+<Val>Dev1/port0/line10</Val>
+</String>
+<I32>
+<Name>GRN_YEL</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>Yellow Select</Name>
+<Val>-1</Val>
+</I32>
+<String>
+<Name>Yellow Select Line</Name>
+<Val></Val>
+</String>
+</Cluster>
+</Array>
+<Array>
+<Name>Filter Values</Name>
+<Dimsize>0</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Color</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>Wavelength</Name>
+<Val></Val>
+</I32>
+<I32>
+<Name>Wheel Position</Name>
+<Val></Val>
+</I32>
+</Cluster>
+</Array>
+</Cluster>
+</Object>
+</LVData>
